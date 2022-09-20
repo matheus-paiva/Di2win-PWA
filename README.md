@@ -28,7 +28,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 ## INSTALANDO O ANGULAR
-Para realizar a instalação do angula siga os seguintes passos:
+Para realizar a instalação do angular siga os seguintes passos:
 - Realizar a instalação do Nodejs através do link a seguir (https://nodejs.org/en/);
 - Segundo passo, executar este comando no seu terminal "npm install -g @angular/cli";
 - Após isto, você pode abrir o terminal na pasta que foi importado o repositório e rodar "ng serve";
@@ -41,8 +41,8 @@ GitBash Instalado;
 ## IMPORTANDO REPOSITÓRIO DO GIT
 Para usar "pull" nos arquivos, abra seu bash no diretório desejado e execute os seguintes comandos:
 - git init
-- git remote add origin https://github.com/matheus-paiva/Squad2---Di2win.git
-- git pull https://github.com/matheus-paiva/Squad2---Di2win.git master
+- git remote add origin https://github.com/matheus-paiva/Di2win-PWA
+- git pull https://github.com/matheus-paiva/Di2win-PWA
 
 ## USANDO COMMITS
 Depois de fazer o passo anterior, use os seguintes comandos no seu bash:
