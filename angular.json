@@ -25,14 +25,17 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/assets/engineicons"
+              "src/assets/engineicons",
+              "src/manifest.webmanifest"
             ],
             "styles": [
               "node_modules/aos/dist/aos.css",
               "src/styles.css"
             ],
             "scripts": [
-            ]
+            ],
+            "serviceWorker": true,
+            "ngswConfigPath": "ngsw-config.json"
           },
           "configurations": {
             "production": {
@@ -94,7 +97,8 @@
             "karmaConfig": "karma.conf.js",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/manifest.webmanifest"
             ],
             "styles": [
               "src/styles.css"
@@ -105,5 +109,8 @@
       }
     }
   },
-  "defaultProject": "Angular_teste"
+  "defaultProject": "Angular_teste",
+  "cli": {
+    "analytics": false
+  }
 }
