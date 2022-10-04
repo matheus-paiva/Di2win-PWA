@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+  }
+.help-container{
+display: grid;
+grid-template-areas: "main-title main-title"
+                      "footer foooter";
+grid-template-columns: 1fr 1fr;
+  grid-gap: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  color: white;
+}
+.main-title{
+grid-area: main-title;   
+height: 2%;
+padding-top: 10%;
+justify-self: center;
+}
+.main-title h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.footer{
+    grid-area: footer;
+    margin-top: 600px;
+  }
+
+  @media only screen and (max-width: 1025px){
+    .main-title{
+      margin-top: 20%;
+    }
+  }

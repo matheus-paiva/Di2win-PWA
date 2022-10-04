@@ -16,12 +16,24 @@
 .main-title h1{ 
   text-align: center;
   color: white;
-  font-size: 45px;
+  font-size: 38px;
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   margin-bottom: 10%;
 }
-
+.main-title a {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  border: 2px groove #fff;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #555353;
+}
 .input, .checkbox, .span, input[type=submit]{
   display: flex;
   flex-direction: column;
