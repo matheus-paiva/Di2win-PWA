@@ -6,6 +6,8 @@
   "display": "standalone",
   "scope": "./",
   "start_url": "./",
+  "orientation": "any",
+  "description" : "App ExtrAIdados | Di2win",
   "icons": [
     {
       "src": "assets/icon/29.png",
