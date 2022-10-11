@@ -1,7 +1,7 @@
 {
   "name": "ExtrAIdados",
   "short_name": "ExtrAIdados",
-  "theme_color": "#1976d2",
+  "theme_color": "#DC338A",
   "background_color": "#fafafa",
   "display": "standalone",
   "scope": "./",
@@ -55,12 +55,11 @@
       "type": "image/png",
       "purpose": "maskable any"
     },
-
     {
       "src": "assets/icon/512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "maskable any"
+      "purpose": "any"
     }
   ]
 }
