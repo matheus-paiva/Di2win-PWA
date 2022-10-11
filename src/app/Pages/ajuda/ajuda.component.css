@@ -7,6 +7,9 @@
 .help-container{
 display: grid;
 grid-template-areas: "main-title main-title"
+                      "buy buy"
+                      "password password"
+                      "contact contact"
                       "footer foooter";
 grid-template-columns: 1fr 1fr;
   grid-gap: 5%;
@@ -25,6 +28,24 @@ justify-self: center;
     font-weight: bold;
     text-align: center;
 }
+.subtitle-content{
+  font-size: 27px;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+.item{
+  margin-top: 1%;
+}
+.buy-help{
+  grid-area: buy;
+}
+.password-help{
+  grid-area: password;
+}
+.contact-help{
+  grid-area: contact;
+}
+
 .footer{
     grid-area: footer;
     margin-top: 600px;
