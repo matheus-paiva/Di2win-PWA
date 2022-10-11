@@ -55,4 +55,11 @@ justify-self: center;
     .main-title{
       margin-top: 20%;
     }
+    .subtitle-content{
+      margin-bottom: 8%;
+      margin-top: 8%;
+    }
+    .item{
+      margin-top: 5%;
+    }
   }
