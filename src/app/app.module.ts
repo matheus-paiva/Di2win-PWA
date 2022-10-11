@@ -10,6 +10,7 @@ import { SharedModule } from './shared/shared.module';
 import { ClickOutsideDirective } from './directives/click-outside.directive';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { WhatsappComponent } from './components/whatsapp/whatsapp.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { environment } from '../environments/environment';
     NavbarComponent,
     PageNotFoundComponent,
     ClickOutsideDirective,
+    WhatsappComponent,
    
   
     
