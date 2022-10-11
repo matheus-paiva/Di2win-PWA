@@ -3,9 +3,9 @@ import { CommonModule } from '@angular/common';
 import { FooterComponent } from './footer/footer.component';
 import { FormsModule } from '@angular/forms';
 import { EngineTestComponent } from './engine-test/engine-test.component';
-import { WhatsappComponent } from './whatsapp/whatsapp.component';
+import { WhatsappComponent } from '../components/whatsapp/whatsapp.component';
 
-const SHARED_COMPONENTS = [FooterComponent,EngineTestComponent,WhatsappComponent];
+const SHARED_COMPONENTS = [FooterComponent,EngineTestComponent];
 
 @NgModule({
   declarations: [SHARED_COMPONENTS],
